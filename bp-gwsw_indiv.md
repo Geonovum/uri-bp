@@ -61,7 +61,7 @@
     een lokaal pad) wordt conform de URI-strategie van het Digitaal Stelsel Omgevingswet de CBS-systematiek gehanteerd. Dit
     is de code van de overheidslaag (01 rijk, 02 uitvoeringsorgaan, 03 provincie, 04 waterschap, 05 gemeenschappelijke
     regeling, 06 gemeente) gevolgd door de viercijferige CBS-code van de overheidsinstelling. Voor bijvoorbeeld de
-    gemeente Roosendaal betekent dit de code "0601674".
+    gemeente Roosendaal betekent dit de code "061674".
     <div class="note" title="Andere bronhouder">
       Eigenaars van de stedelijk water voorzieningen zijn niet altijd in de overheidslaag onder te brengen, denk aan
       terreinriolering. Daarvoor zal een extra code nodig zijn.
@@ -120,7 +120,7 @@
       BGT-objectidentificatie (object-ID) hanteert de richtlijnen van NEN3610:2011. Aan elk object wordt een uniek
       identificatienummer toegekend, dat uit twee delen bestaat: een namespace en een identificatiecode. Zolang het
       object
-      bestaat, mag dit ID niet ver­an­deren. Vanwege de samenhang tussen de BGT en IMGeo wordt één notatiewijze voor het
+      bestaat, mag dit ID niet veranderen. Vanwege de samenhang tussen de BGT en IMGeo wordt één notatiewijze voor het
       object-ID voorgeschreven.
 
       Een BGT-ID bestaat uit de namespace **NL.IMGeo** (Landcode + Sectormodel) gevolgd door een code voor de
@@ -156,10 +156,8 @@
 
     ## Relevante requirements
     <span style="color:gray;font-size:0.8em;">*In het SDW-BP document staan geen use cases en requirements; deze waren al
-      in
-      een apart document opgenomen [[SDW-UCR]]. Onder dit kopje 'relevante requirements' wordt verwezen naar de voor
-      deze
-      best practice relevante requirements.*</span>
+      in een apart document opgenomen [[SDW-UCR]]. Onder dit kopje 'relevante requirements' wordt verwezen naar de voor
+      deze best practice relevante requirements.*</span>
 
     ### URI-strategie voor concepten in het GWSW Model
     Om te verwijzen naar documentlocaties van GWSW-concepten gebruiken we:
@@ -182,17 +180,17 @@
 
     https://data.gwsw.nl/1.5.1/Totaal/ExterneOverstortput. *default type = "def"* 
 
-    De kenmerken van de worden benoemd met de relatie (predicate) 
+    De kenmerken van het object worden benoemd met de relatie (predicate) 
     
     https://data.gwsw.nl/1.5.1/Totaal/hasAspect. *default type = "def"* 
 
     ### Datasets opbouwen conform GWSW-OroX definitie
     Zie het document [GWSW-OroX Bestandsopbouw](https://apps.gwsw.nl/doc/GWSW.orox%20Beschrijving.pdf)
 
-    ### Dataset via website op de GWSW Server publiceren
+    ### Datasets via een website op de GWSW Server publiceren
     Zie de website met [GWSW Applicaties](https://apps.gwsw.nl)
 
-    ### Dataset via GWSW API op de GWSW Server publiceren
+    ### Dataset via de GWSW API op de GWSW Server publiceren
     Zie de [API Specificatie](https://apps.gwsw.nl/item_redoc)
 
     ## Baten
@@ -202,7 +200,10 @@
       worden gerealiseerd door deze specifieke best practice te volgen.*
     </span>
 
-    De eerste toepassingen die gebruik maken van de GWSW Datasets op landelijk niveau zijn al in ontwikkeling, daarvoor is een uniforme URI-strategie noodzaak.
-    De baten vinden we in mooie nieuwe toepassingen die analyses doen met landelijke gegevens over stedelijk water voorzieningen. 
-    Een mooi voorbeeld is het onderzoek naar trends bij voorgekomen rioolinstortingen.
-
+    De eerste toepassingen die gebruik maken van de GWSW Datasets op landelijk niveau zijn al in ontwikkeling. Daarvoor is een uniforme URI-strategie noodzakelijk. 
+    Dat kan geen specifieke of unieke URI-strategie zijn voor het stedelijk waterbeheer alleen, vanwege de grote vervlochtenheid van processen, rollen, partijen, 
+    systemen en objecten in de openbare ruimte. Stichting RIONED wil met het GWSW dus een URI-strategie hanteren die wordt onderschreven door zoveel mogelijk partijen 
+    zoals MinBZK/DisGeo/SOR, Kadaster, Geonovum, CROW, Informatiehuis Water en Het Waterschapshuis.  
+    
+    De baten vinden we in mooie nieuwe toepassingen die analyses doen met landelijke gegevens over stedelijkwatervoorzieningen. 
+    Een mooi voorbeeld is het onderzoek naar trends bij voorgekomen rioolinstortingen (Stichting RIONED).
