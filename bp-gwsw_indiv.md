@@ -65,7 +65,7 @@
     een lokaal pad) wordt conform de URI-strategie van het Digitaal Stelsel Omgevingswet de CBS-systematiek gehanteerd. Dit
     is de code van de overheidslaag (01 rijk, 02 uitvoeringsorgaan, 03 provincie, 04 waterschap, 05 gemeenschappelijke
     regeling, 06 gemeente) gevolgd door de viercijferige CBS-code van de overheidsinstelling. Voor bijvoorbeeld de
-    gemeente Roosendaal betekent dit de code "061674".
+    gemeente Roosendaal betekent dit de code "0601674".
     <div class="note" title="Andere bronhouder">
       Eigenaars van de stedelijk water voorzieningen zijn niet altijd in de overheidslaag onder te brengen, denk aan
       terreinriolering. Daarvoor zal een extra code nodig zijn.
