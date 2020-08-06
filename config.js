@@ -47,9 +47,9 @@ var respecConfig =
   authors: 
   [
     {
-       name:       "naam",
-       company:    "organisatie",
-       companyURL: "website van organisatie"
+       name:       "marinus vonhof",
+       company:    "Stichting RIONED",
+       companyURL: "https://www.riool.net"
      }, 
     ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
