@@ -55,7 +55,9 @@ Elk te onderscheiden individu wordt met de URI uniek geïdentificeerd zodat de i
   ook veranderlijker kan zijn en misschien ook vaker geactualiseerd moet worden.*</span>
 
 ### URI-strategie voor concepten in het GWSW Datamodel versie 2.0
-Vanaf GWSW versie 2.0 (afgestemd op de NTA 8035) verwijzen we naar GWSW-concepten met:
+De vigerende versie van het GWSW (versie 1.5.1) wordt al veel in de praktijk gebruikt, de daarbij gehanteerde URI's zijn nog niet genormaliseerd. 
+GWSW versie 2.0 is in ontwikkeling, die wordt afgestemd op de NTA 8035 en mogelijk in combinatie met de linked-data versie van IMBOR uitgebracht. 
+Zie de documentatie op https://stichtingrioned.github.io/GWSW_2.0 . Vanaf GWSW 2.0 verwijzen we naar GWSW-concepten met:
 
 **https://{domain}/{type}/[version]/{reference}** *(http wordt omgeleid naar https)*
 
