@@ -1,6 +1,6 @@
-# URI-strategie assets stedelijk water
+# URI-strategie Ontologie Stedelijk Water
 
-Versie: 20200925
+Versie: 20200930
 
 ## In het kort
 <span style="color:gray;font-size:0.8em;">*Beschrijving van de best practice in iets langere bewoordingen*</span>
@@ -217,7 +217,7 @@ De externe overstortput P123 bevat een debietmeter, dit apparaat heeft een eigen
 
 <div class="note" title="BGT in Linked Data vorm">
 De BGT wordt naar verwachting in het vierde kwartaal van 2020 gepubliceerd als Linked Data, met naar alle waarschijnlijkheid URI's die beginnen met bgt.basisregistraties.overheid.nl.
-Die ontwikkeling is in deze opzet nog niet meegenomen maar wordt uiteraard op de voet gevolgd.
+Die ontwikkeling is in deze opzet nog niet meegenomen maar wordt uiteraard op de voet gevolgd en waar nodig verwerkt in deze opzet.
 </div>
 
 ## Testen
