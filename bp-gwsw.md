@@ -5,7 +5,7 @@ Versie: 20200930
 ## In het kort
 <span style="color:gray;font-size:0.8em;">*Beschrijving van de best practice in iets langere bewoordingen*</span>
 
-Een **best practice** voor het identificeren van individuen in linked-data vorm binnen de discipline stedelijk
+Een **best practice** voor het identificeren van concepten en individuen in linked-data vorm binnen de discipline stedelijk
 water.
 
 Gebaseerd op het **Gegevenswoordenboek Stedelijk Water (GWSW)** zie [data.gwsw.nl](https://data.gwsw.nl)
@@ -38,13 +38,12 @@ leidingen, ze worden in het algemeen "individuen" genoemd. Het verwijzen naar in
 het linked-data principe, zeker nu er meer linked-data platforms verschijnen en de GWSW datasets steeds breder worden
 toegepast.
 
-Een URI-strategie voor individuen in de "bebouwde omgeving" zoals beschreven in dit document is daarvoor noodzaak. 
+Een URI-strategie voor zowel de GWSW-concepten als individuen in de "bebouwde omgeving" zoals beschreven in dit document is daarvoor noodzaak. 
 
 ## Beoogd resultaat
 <span style="color:gray;font-size:0.8em;">*Beschrijft het beoogde resultaat*</span>
 
-We willen komen tot een uniforme URI-strategie voor linked-data-individuen in de bebouwde omgeving, om te beginnen met
-stedelijk water. 
+We willen komen tot een uniforme URI-strategie voor linked-data-individuen in de bebouwde omgeving, om te beginnen met stedelijk water. 
 Elk te onderscheiden individu wordt met de URI uniek geïdentificeerd zodat de implementatie en toepassing van linked data over de hele sector voorspelbaarder en gelijkvormiger wordt.
 
 ## Implementatie
