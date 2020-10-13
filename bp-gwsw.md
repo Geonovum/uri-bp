@@ -62,7 +62,7 @@ Zie de documentatie op https://stichtingrioned.github.io/GWSW_2.0 . Vanaf GWSW 2
 
 * {domain} is het web-domein: voor de GWSW-Ontologie is dit {locatie}.gwsw.nl. Het subdomein {locatie} voor de ontologie is "data".
 * {type} is het soort resource: voor het datamodel (concepten) is dat type "def".
-* [version] is de versie van het data-model. De versie is optioneel, als die ontbreekt geldt de vigerende versie van de GWSW ontologie (vanaf "2.0").
+* [version] is de versie van het data-model. De versie is optioneel, als die ontbreekt geldt de vigerende versie van de GWSW ontologie. Bij oudere GWSW-versies is het versienummer noodzakelijk. Ook in datasets is het versienummer in de verwijzing naar het GWSW-model verplicht. Een dataset hoort altijd bij een specifieke GWSW-verise, oudere versies van het GWSW-model blijven daarom ook bruikbaar.
 * {reference} is de verwijzing naar het specifieke concept. Het hanteren van begrijpbare namen voor concepten is een gangbare RDF praktijk en ook voor het GWSW heel bruikbaar.
 We gaan uit van camelCase en CamelCase notatie van de namen voor respectievelijk de properties (starten met lowercase)
 en de klassen (starten met uppercase).
